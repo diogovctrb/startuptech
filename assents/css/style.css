@@ -189,7 +189,7 @@ header img {
 
 /* EstilizaÃ§Ã£o dos cards */
 .card {
-    width: 20%; /* Define a largura do card como 20% do container */
+    width: 22%; /* Define a largura do card como 20% do container */
     border: 2px solid var(--cor2); /* Adiciona uma borda preta de 2px */
     border-radius: 10px; /* Arredonda as bordas do card */
     box-shadow: 5px 5px 5px var(--cor3); /* Adiciona uma sombra ao card */
@@ -248,7 +248,7 @@ header img {
     color: var(--cor2); /* Define a cor do texto como preto */
     display: flex; /* Usa Flexbox */
     flex-direction: column; /* Organiza os elementos verticalmente */
-    padding-left: 50px; /* Adiciona preenchimento Ã  esquerda de 50px */
+    padding-left: 60px; /* Adiciona preenchimento Ã  esquerda de 50px */
 }
 
 /* EstilizaÃ§Ã£o do tÃ­tulo da seÃ§Ã£o "Quem somos" */
@@ -266,7 +266,7 @@ header img {
     flex-direction: row; /* Organiza os itens na linha (horizontalmente) */
     align-items: center; /* Alinha os itens verticalmente ao centro */
     justify-content: center; /* Centraliza os itens dentro do contÃªiner */
-    gap: 100px; /* Adiciona um espaÃ§amento de 100px entre os itens */
+    gap: 88px; /* Adiciona um espaÃ§amento de 100px entre os itens */
     margin-bottom: 100px; /* Adiciona uma margem inferior de 100px */
 }
 
@@ -320,7 +320,7 @@ header img {
     position: relative; /* Essencial para posicionar filhos com position: absolute */
     display: flex; /* Usa Flexbox */
     flex-direction: column; /* Organiza os elementos verticalmente */
-    width: 35%; /* Define a largura do profissional como 35% do container */
+    width: 40%; /* Define a largura do profissional como 35% do container */
     border-radius: 0 0 0 30px; /* Arredonda a parte inferior esquerda do profissional */
     box-shadow: 5px 5px 5px var(--cor3); /* Adiciona uma sombra ao profissional */
     height: 700px; /* Define a altura do profissional como 700px */
@@ -348,14 +348,14 @@ header img {
 
 /* EstilizaÃ§Ã£o do texto dentro do profissional */
 .profissional-texto {
-    padding-left: 50px; /* Adiciona preenchimento Ã  esquerda de 50px */
+    padding-left: 40px; /* Adiciona preenchimento Ã  esquerda de 40px */
 }
 
 /* EstilizaÃ§Ã£o do nome dentro do profissional */
 .profissional-texto h3 {
     font-size: 40px; /* Define o tamanho da fonte como 40px */
     font-weight: 600; /* Define o peso da fonte como 600 (seminegrito) */
-    height: 60px; /* Define a altura do nome como 60px */
+    height:60px; /* Define a altura do nome como 60px */
 }
 
 /* EstilizaÃ§Ã£o do cargo dentro do profissional */
@@ -368,7 +368,7 @@ header img {
 
 /* EstilizaÃ§Ã£o da descriÃ§Ã£o dentro do profissional */
 .profissional-texto p {
-    font-size: 20px; /* Define o tamanho da fonte como 20px */
+    font-size: 30px; /* Define o tamanho da fonte como 20px */
     font-weight: 300; /* Define o peso da fonte como 300 (mais fino) */
     height: 100px; /* Define a altura da descriÃ§Ã£o como 100px */
     padding-right: 30px; /* Adiciona preenchimento Ã  direita de 30px */
@@ -571,3 +571,126 @@ footer{
     color: var(--cor3); /* Altera a cor dos links para 'cor3' durante o hover */
     scale: 1.2; /* Aumenta o tamanho do link para 1.2 vezes durante o hover */
 }
+
+
+@media screen and (max-width:992px) {
+
+
+ header {
+
+flex-direction: column;
+gap: 40px;
+
+ }   
+ header img {
+width: 85%;
+ }
+ header span {
+width: 100px;
+ }
+
+header nav { 
+
+flex-direction: row;
+gap: 100px;
+}
+ 
+#apresentacao {
+
+flex-direction: row;
+width: 97%;
+}
+
+#apresentacao img { 
+
+width: 75%
+}
+
+#apresentacao div {
+
+padding: 15px;
+
+}
+
+#cards {
+
+flex-direction: row;
+width: 103%;
+padding: 20px;
+}
+
+.card {
+
+    width: 185px;
+}
+
+#listadeprofissionais {
+
+flex-direction: column;
+padding: 20px;
+gap: 30px;
+}
+
+.profissionais {
+
+width: 900px;
+gap: 30px;
+}
+.profissional {
+
+width: 400px;
+padding-top: 10px;
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
